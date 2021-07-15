@@ -9,7 +9,6 @@ export default function Home() {
   // Home page
   return (
     <>
-    // Head tag that is normally in index.html
       <Head>
         <meta name="viewport" content="width=device-width" />
         <meta charSet="utf-8" />
@@ -18,7 +17,7 @@ export default function Home() {
       <div>
         <h1>HOME</h1>
 
-        <Image src='/oh.png' width={1500} height={500}></Image>
+        <Image src='/oh.png' width={1500} height={500} alt='image'></Image>
       </div>
     </>
   )
